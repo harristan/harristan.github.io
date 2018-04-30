@@ -25,10 +25,10 @@ $(document).ready(function(){
 	});
 	
 	$("#carousel-public").swiperight(function() {  
-      $("#carousel-public").carousel('prev');  
+      $(this).carousel('prev');  
     });  
    $("#carousel-public").swipeleft(function() {  
-      $("#carousel-public").carousel('next');  
+      $(this).carousel('next');  
    });  
 
 }); // jQuery
