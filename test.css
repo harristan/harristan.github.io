@@ -134,6 +134,6 @@ reasonable length in the case of no records ********************************/
 	padding: 0;
 	text-align: center;
 }
-.carousel .carousel-inner .item {
+.carousel .carousel-inner {
 	background-color: grey;
 }
