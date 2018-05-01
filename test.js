@@ -24,11 +24,5 @@ $(document).ready(function(){
 		interval: false
 	});
 	
-	$("#carousel-public").swiperight(function() {  
-      $(this).carousel('prev');  
-    });  
-   $("#carousel-public").swipeleft(function() {  
-      $(this).carousel('next');  
-   });  
 
 }); // jQuery
