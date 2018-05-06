@@ -23,6 +23,7 @@ $(document).ready(function(){
 	$('.carousel').carousel({
 		interval: false
 	});
-	
+	var jqModal = $(".modal.fade");
+		jqModal.modal('show');
 
 }); // jQuery
