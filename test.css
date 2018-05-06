@@ -137,3 +137,8 @@ reasonable length in the case of no records ********************************/
 .carousel .carousel-inner {
 	background-color: #ECEAEA;
 }
+
+input {
+	
+	font-size: 16px;
+}
