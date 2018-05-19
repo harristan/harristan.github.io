@@ -138,7 +138,7 @@ reasonable length in the case of no records ********************************/
 	background-color: #ECEAEA;
 }
 
-input.form-control {
+input.form-control,select {
 	
 	font-size: 16px;
 }
