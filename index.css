@@ -363,11 +363,11 @@
 	background-size: cover;
 }
 .sample-6 {
-	background: url("../img/sample-member-6.jpg") no-repeat center center;
+	background: url("./sample-member-6.jpg") no-repeat center center;
 	background-size: cover;
 }
 .sample-7 {
-	background: url("../img/sample-member-7.jpg") no-repeat center center;
+	background: url("./sample-member-7.jpg") no-repeat center center;
 	background-size: cover;
 }
 .sample-8 {
