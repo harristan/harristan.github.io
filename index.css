@@ -26,7 +26,7 @@
 /********* Jumbotron *********/
 
 .jumbo {
-	background: url("../img/jumbo.jpg") no-repeat center;
+	background: url("./jumbo.jpg") no-repeat center;
 	background-size: cover;
 	padding: 0;
 }
@@ -343,23 +343,23 @@
 }
 
 .sample-1 {
-	background: url("../img/sample-member-1.jpg") no-repeat center center;
+	background: url("./sample-member-1.jpg") no-repeat center center;
 	background-size: cover;
 }
 .sample-2 {
-	background: url("../img/sample-member-2.jpg") no-repeat center center;
+	background: url("./sample-member-2.jpg") no-repeat center center;
 	background-size: cover;
 }
 .sample-3 {
-	background: url("../img/sample-member-3.jpg") no-repeat center center;
+	background: url("./sample-member-3.jpg") no-repeat center center;
 	background-size: cover;
 }
 .sample-4 {
-	background: url("../img/sample-member-4.jpg") no-repeat center center;
+	background: url("./sample-member-4.jpg") no-repeat center center;
 	background-size: cover;
 }
 .sample-5 {
-	background: url("../img/sample-member-5.jpg") no-repeat center center;
+	background: url("./sample-member-5.jpg") no-repeat center center;
 	background-size: cover;
 }
 .sample-6 {
@@ -371,23 +371,23 @@
 	background-size: cover;
 }
 .sample-8 {
-	background: url("../img/sample-member-8.jpg") no-repeat center center;
+	background: url("./sample-member-8.jpg") no-repeat center center;
 	background-size: cover;
 }
 .sample-9 {
-	background: url("../img/sample-member-9.jpg") no-repeat center center;
+	background: url("./sample-member-9.jpg") no-repeat center center;
 	background-size: cover;
 }
 .sample-10 {
-	background: url("../img/sample-member-10.jpg") no-repeat center center;
+	background: url("./sample-member-10.jpg") no-repeat center center;
 	background-size: cover;
 }
 .sample-11 {
-	background: url("../img/sample-member-11.jpg") no-repeat center center;
+	background: url("./sample-member-11.jpg") no-repeat center center;
 	background-size: cover;
 }
 .sample-12 {
-	background: url("../img/sample-member-12.jpg") no-repeat center center;
+	background: url("./sample-member-12.jpg") no-repeat center center;
 	background-size: cover;
 }
 
