@@ -27,9 +27,6 @@
 	background: -moz-radial-gradient(circle, #fff, #f7f7f7);
 	background: -webkit-radial-gradient(circle, #fff, #f7f7f7);
 	background: radial-gradient(circle, #fff, #f7f7f7);
-	-moz-box-shadow: 0 0 12px #756f6b;
-	-webkit-box-shadow: 0 0 12px #756f6b;
-	box-shadow: 0 0 12px #756f6b;
 	padding: 10px;
 }
 
