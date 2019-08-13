@@ -21,7 +21,11 @@
 }
 
 
-.personalities .img {
+/* .personalities .img {
 	width: 100%;
 	height:200px;
+} */
+
+.personalities .col-xs-6 {
+	height: 300px;
 }
