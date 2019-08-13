@@ -25,7 +25,7 @@
 }
 
 @media (min-width: 768px) {
-	remove-lg {
+	.personalities .row .col-xs-4.col-sm-3.remove-lg {
 		display: none;
 	}
 }
