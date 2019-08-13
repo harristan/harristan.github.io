@@ -21,7 +21,7 @@
 	margin: 0;
 }
 
-.personalities .row .col-xs-4.col-sm-3 {
+.personalities .row .col-xs-4 {
 	height: 250px;
 }
 
@@ -33,23 +33,23 @@
 }
 
 @media (max-width: 767px) {
-	.personalities .row .col-xs-4.col-sm-3 {
+	.personalities .row .col-xs-4 {
 		height: 200px;
 	}
 
-	.personalities .row .col-xs-4.col-sm-3.remove-on-xs {
+	.personalities .row .col-xs-4.remove-on-xs {
 		display: none;
 	}
 }
 
 @media (max-width: 480px) {
-	.personalities .row .col-xs-4.col-sm-3 {
+	.personalities .row .col-xs-4 {
 		height: 150px;
 	}
 }
 
 @media (max-width: 360px) {
-	.personalities .row .col-xs-4.col-sm-3 {
+	.personalities .row .col-xs-4 {
 		height: 120px;
 	}
 }
