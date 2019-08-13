@@ -22,7 +22,7 @@
 }
 
 .personalities .row .col-xs-4 {
-	height: 200px;
+	height: 230px;
 }
 
 
@@ -34,7 +34,7 @@
 
 @media (max-width: 767px) {
 	.personalities .row .col-xs-4 {
-		height: 150px;
+		height: 180px;
 	}
 
 	.personalities .row .col-xs-4.remove-on-xs {
@@ -43,6 +43,12 @@
 }
 
 @media (max-width: 480px) {
+	.personalities .row .col-xs-4 {
+		height: 150px;
+	}
+}
+
+@media (max-width: 360px) {
 	.personalities .row .col-xs-4 {
 		height: 120px;
 	}
