@@ -21,11 +21,15 @@
 }
 
 
-/* .personalities .img {
-	width: 100%;
-	height:200px;
-} */
+.personalities .container {
+	padding: 0;	
+}
 
 .personalities .col-xs-6 {
 	height: 300px;
+	width: 100%;
+}
+
+.personalities .row {
+	margin: 0;
 }
