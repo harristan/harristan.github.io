@@ -30,15 +30,15 @@
 	.personalities .row.only-on-xs {
 		display: none;
 	}
-
-	.personalities .row .col-xs-4.col-sm-3.remove-on-lg {
-		display: none;
-	}
 }
 
 @media (max-width: 767px) {
 	.personalities .row .col-xs-4.col-sm-3 {
 		height: 200px;
+	}
+
+	.personalities .row .col-xs-4.col-sm-3.remove-on-xs {
+		display: none;
 	}
 }
 
