@@ -41,9 +41,11 @@
 
 .personalities .row.top-intro .block .summary {
 	font-family: 'Lato', Verdana, Geneva, sans-serif;
-	font-size: 15px;
-	color: #333;
-	margin-top: 20px;
+    color: #303033;
+    max-width: 700px;
+    margin: 15px auto 0;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .personalities .row .col-xs-4 {
