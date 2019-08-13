@@ -1,56 +1,114 @@
-.container-fluid {
-	padding: 0;
-}
 
-@media (max-width: 480px) {
-	.row {
-		margin: 0;
-	}
+<!DOCTYPE html>
+<html>
 
-	.container > .row > div {
-		padding: 0;
-	}
-}
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-.personalities .container {
-	padding: 0;
-	width: 100%;
-}
+		<title>League of Nova</title>
 
-.personalities .row {
-	margin: 0;
-}
+		<link rel="stylesheet" href='./bootstrap.min.css'>
+		<link rel="stylesheet" type="text/css" href='./test.css'>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,900">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 	</head>
 
-.personalities .row .col-xs-4 {
-	height: 250px;
-}
+ 	<body>
+ 		
+   		<div class="margin-collapse"></div>
 
 
-@media (min-width: 768px) {
-	.personalities .row.only-on-xs {
-		display: none;
-	}
-}
+   		<div class="container-fluid personalities">
+	    	<div class="container">
 
-@media (max-width: 767px) {
-	.personalities .row .col-xs-4 {
-		height: 200px;
-	}
+	    		<div class="row">
+					<div class="col-xs-4 col-sm-2" style="background: url('./test-p1.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4 col-sm-2" style="background: url('./test-p2.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4 col-sm-2" style="background: url('./test-p3.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4 col-sm-2 remove-on-xs" style="background: url('./test-p3.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4 col-sm-2 remove-on-xs" style="background: url('./test-p4.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4 col-sm-2 remove-on-xs" style="background: url('./test-p5.jpg') no-repeat 50% 10%;background-size: cover"></div>
 
-	.personalities .row .col-xs-4.remove-on-xs {
-		display: none;
-	}
-}
+				</div>
 
-@media (max-width: 480px) {
-	.personalities .row .col-xs-4 {
-		height: 150px;
-	}
-}
+				<div class="row only-on-xs">
+					<div class="col-xs-4" style="background: url('./test-p5.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4" style="background: url('./test-p6.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4" style="background: url('./test-p7.jpg') no-repeat 50% 10%;background-size: cover"></div>
+				</div>
 
-@media (max-width: 360px) {
-	.personalities .row .col-xs-4 {
-		height: 120px;
-	}
-}
+				<div class="row">
+					<div class="col-xs-12">Hello world!</div>
+				</div>
 
+				<div class="row only-on-xs">
+					<div class="col-xs-4" style="background: url('./test-p5.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4" style="background: url('./test-p6.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4" style="background: url('./test-p7.jpg') no-repeat 50% 10%;background-size: cover"></div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-4 col-sm-2" style="background: url('./test-p5.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4 col-sm-2" style="background: url('./test-p6.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4 col-sm-2" style="background: url('./test-p7.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4 col-sm-2 remove-on-xs" style="background: url('./test-p5.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4 col-sm-2 remove-on-xs" style="background: url('./test-p6.jpg') no-repeat 50% 10%;background-size: cover"></div>
+					<div class="col-xs-4 col-sm-2 remove-on-xs" style="background: url('./test-p7.jpg') no-repeat 50% 10%;background-size: cover"></div>
+				</div>
+		  		
+	      	</div>
+	    </div>		
+
+<!-- 
+	    <div class="container-fluid videos">
+	    	<div class="container">
+
+	      		<div class="section-header">
+		        	<div class="section-title">How it works</div>
+		        	<p class="section-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, !sed do eiusmod tempor incididunt </p>
+	      		</div>
+
+				<div class="row">
+					<div class="personality-video col-sm-6">
+						<div class="border">
+							<div class="main">
+								<div class="step-no">
+									<i class="material-icons">looks_one</i>
+								</div>
+								<div class="step-desc">
+									<p class="step-title">Heading</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, !sed do eiusmod tempor incididunt ut et dolore magna aliqua. !Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+								</div>
+								<div class="step-pic">
+									<i class="fa fa-calendar-check-o"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="step step-2 col-sm-6 col-md-4">
+						<div class="border">
+							<div class="main">
+								<div class="step-no">
+									<i class="material-icons">looks_two</i>
+								</div>
+								<div class="step-desc">
+									<p class="step-title">Heading</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, !sed do eiusmod tempor incididunt ut et dolore magna aliqua. !Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+								</div>
+								<div class="step-pic">
+									<i class="fa fa-mouse-pointer"></i>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+
+	    	</div>
+	  	</div>
+
+ -->
+	</body>
+</html>
