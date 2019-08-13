@@ -31,8 +31,20 @@
 	}
 }
 
+@media (max-width: 767px) {
+	.personalities .row .col-xs-4.col-sm-3 {
+		height: 200px;
+	}
+}
+
 @media (max-width: 480px) {
 	.personalities .row .col-xs-4.col-sm-3 {
 		height: 150px;
+	}
+}
+
+@media (max-width: 360px) {
+	.personalities .row .col-xs-4.col-sm-3 {
+		height: 120px;
 	}
 }
