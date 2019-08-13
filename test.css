@@ -111,7 +111,7 @@ body {
 }
 
 .section.container {
-	max-width: 600px;
+	max-width: 700px;
 	padding: 0 10px;
 }
 
@@ -156,7 +156,7 @@ body {
 
 .section-header .section-desc {
 	color: #1C1708;
-	font-size: 15px;
+	font-size: 16px;
     padding: 0;
     margin: 0 auto;
 	text-align: center;
@@ -165,6 +165,10 @@ body {
 @media (max-width: 767px) {
 	.section-header .section-title {
 		font-size: 30px;
+	}
+
+	.section-header .section-desc {
+		font-size: 15px;
 	}
 }
 
@@ -189,7 +193,7 @@ body {
 }
 
 
-.border {
+.border.video {
 	background: #f7f7f7;
 	background: -moz-radial-gradient(circle, #fff, #f7f7f7);
 	background: -webkit-radial-gradient(circle, #fff, #f7f7f7);
@@ -198,6 +202,8 @@ body {
 	-webkit-box-shadow: 0 0 12px #756f6b;
 	box-shadow: 0 0 12px #756f6b;
 	padding: 5px;
+	width: 65%;
+    margin: 50px auto;
 }
 
 .main {
