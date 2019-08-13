@@ -19,3 +19,8 @@
 .navbar-bottom {
 	height: 60px;
 }
+
+
+.personalities .col-xs-6.col-md-3 {
+	height: 200px;
+}
