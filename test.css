@@ -39,6 +39,12 @@
 	height: 32px;
 }
 
+.personalities .row.top-intro .block .summary {
+	font-family: 'Lato', Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	color: #333;
+}
+
 .personalities .row .col-xs-4 {
 	height: 230px;
 }
