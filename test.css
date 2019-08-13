@@ -27,7 +27,7 @@
 	background: -moz-radial-gradient(circle, #fff, #f7f7f7);
 	background: -webkit-radial-gradient(circle, #fff, #f7f7f7);
 	background: radial-gradient(circle, #fff, #f7f7f7);
-	padding: 10px;
+	padding: 20px 10px;
 }
 
 .personalities .row.top-intro .block {
@@ -35,8 +35,8 @@
 }
 
 .personalities .row.top-intro .block .logo img {
-	width: 320px;
-	height: 35px;
+	width: 280px;
+	height: 32px;
 }
 
 .personalities .row .col-xs-4 {
