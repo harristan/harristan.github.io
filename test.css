@@ -119,7 +119,7 @@ body {
 
 .section-header .section-title {
 	color: #063752;
-	font-size: 28px;
+	font-size: 32px;
 	font-weight: bold;
 	margin: 0 0 25px;
 	padding-bottom: 15px;
@@ -140,7 +140,7 @@ body {
 }
 
 .section-header .section-title:after {
-	background: #092140; /* blue dot */
+	background: #ff9900;
 	border: 5px solid #fff;
 	border-radius: 20px;
 	bottom: -11px;
@@ -161,4 +161,28 @@ body {
 	text-align: center;
 }
 
+@media (max-width: 767px) {
+	.section-header .section-title {
+		font-size: 30px;
+	}
+}
 
+@media (max-width: 480px) {
+	.section-header .section-title {
+		font-size: 28px;
+	}
+
+	.section-header .section-desc {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 360px) {
+	.section-header .section-title {
+		font-size: 24px;
+	}
+
+	.section-header .section-desc {
+		font-size: 13px;
+	}
+}
