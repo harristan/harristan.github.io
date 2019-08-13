@@ -110,8 +110,10 @@ body {
 	}
 }
 
-
-/********* All section headers, titles and desc *********/
+.section.container {
+	max-width: 600px;
+	padding: 0 10px;
+}
 
 .section-header {
 	margin: 70px auto 0;
@@ -155,7 +157,6 @@ body {
 .section-header .section-desc {
 	color: #1C1708;
 	font-size: 15px;
-	max-width: 600px;
     padding: 0;
     margin: 0 auto;
 	text-align: center;
@@ -185,4 +186,22 @@ body {
 	.section-header .section-desc {
 		font-size: 13px;
 	}
+}
+
+
+.border {
+	background: #f7f7f7;
+	background: -moz-radial-gradient(circle, #fff, #f7f7f7);
+	background: -webkit-radial-gradient(circle, #fff, #f7f7f7);
+	background: radial-gradient(circle, #fff, #f7f7f7);
+	-moz-box-shadow: 0 0 12px #756f6b;
+	-webkit-box-shadow: 0 0 12px #756f6b;
+	box-shadow: 0 0 12px #756f6b;
+	padding: 5px;
+}
+
+.main {
+	background: #fff;
+	margin: 0;
+	padding: 0;
 }
