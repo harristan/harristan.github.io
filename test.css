@@ -30,6 +30,15 @@
 	padding: 10px;
 }
 
+.personalities .row.top-intro .block {
+	text-align: center;
+}
+
+.personalities .row.top-intro .block .logo img {
+	width: 600px;
+	height: 60px;
+}
+
 .personalities .row .col-xs-4 {
 	height: 230px;
 }
