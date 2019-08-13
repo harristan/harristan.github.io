@@ -30,6 +30,10 @@
 	.personalities .row.only-on-xs {
 		display: none;
 	}
+
+	.personalities .row .col-xs-4.col-sm-3.remove-on-lg {
+		display: none;
+	}
 }
 
 @media (max-width: 767px) {
