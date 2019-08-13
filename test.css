@@ -114,15 +114,15 @@ body {
 /********* All section headers, titles and desc *********/
 
 .section-header {
-	margin-bottom: 50px;
+	margin: 70px auto 0;
 }
 
 .section-header .section-title {
-	color: #1C1708; /* dark black */
-	font-size: 29px;
+	color: #063752;
+	font-size: 28px;
 	font-weight: bold;
 	margin: 0 0 25px;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 	position: relative;
 	text-align: center;
 	text-transform: uppercase;
@@ -145,50 +145,20 @@ body {
 	border-radius: 20px;
 	bottom: -11px;
 	content: "";
-	height: 24px;
+	height: 22px;
 	left: 50%;
 	margin-left: -12px;
 	position: absolute;
-	width: 24px;
+	width: 20px;
 }
 
 .section-header .section-desc {
-	color: #1C1708; /* dark black */
-	font-size: 17px;
-	padding: 0 3%;
+	color: #1C1708;
+	font-size: 15px;
+	max-width: 600px;
+    padding: 0;
+    margin: 0 auto;
 	text-align: center;
 }
 
-@media (max-width: 450px) {
-	.section-header .section-title {
-		font-size: 24px;
-	}
 
-	.section-header .section-desc {
-		font-size: 15px;
-	}
-}
-
-@media (min-width: 500px) {
-	.section-header .section-desc {
-		padding: 0 10%;
-	}
-}
-
-@media (min-width: 706px) {
-	.section-header .section-desc {
-		padding: 0 15%;
-	}
-}
-
-@media (min-width: 992px) {
-	.section-header .section-desc {
-		padding: 0 20%;
-	}
-}
-
-@media (min-width: 1200px) {
-	.section-header .section-desc {
-		padding: 0 25%;
-	}
-}
