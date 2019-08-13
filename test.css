@@ -202,7 +202,7 @@ body {
 	-webkit-box-shadow: 0 0 12px #756f6b;
 	box-shadow: 0 0 12px #756f6b;
 	padding: 5px;
-	width: 65%;
+	width: 60%;
     margin: 50px auto;
 }
 
@@ -210,4 +210,16 @@ body {
 	background: #fff;
 	margin: 0;
 	padding: 0;
+}
+
+@media (max-width: 600px) {
+	.border.video {
+		width: 70%;
+	}
+}
+
+@media (max-width: 480px) {
+	.border.video {
+		width: 80%;
+	}
 }
