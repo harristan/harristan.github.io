@@ -112,14 +112,14 @@ body {
 
 .section.container {
 	max-width: 700px;
-	padding: 0 10px;
+	padding: 0;
 }
 
-.section-header {
+.section .section-header {
 	margin: 70px auto 0;
 }
 
-.section-header .section-title {
+.section .section-header .section-title {
 	color: #063752;
 	font-size: 32px;
 	font-weight: bold;
@@ -130,7 +130,7 @@ body {
 	text-transform: uppercase;
 }
 
-.section-header .section-title:before {
+.section .section-header .section-title:before {
 	background: #c9c8c7; /* grey line */
 	bottom: 0;
 	content: "";
@@ -141,7 +141,7 @@ body {
 	width: 140px;
 }
 
-.section-header .section-title:after {
+.section .section-header .section-title:after {
 	background: #ff9900;
 	border: 5px solid #fff;
 	border-radius: 20px;
@@ -154,40 +154,50 @@ body {
 	width: 20px;
 }
 
-.section-header .section-desc {
+.section .section-header .section-desc {
 	color: #1C1708;
 	font-size: 16px;
-    padding: 0;
+    padding: 0 10px;
     margin: 0 auto;
 	text-align: center;
 }
 
+.section .section-end {
+	border-top: 1px solid #a99372;
+	border-bottom: 1px solid #a99372;
+	color: #1C1708;
+	font-size: 16px;
+    padding: 10px 10px;
+    margin: 0 auto;
+	text-align: justify;
+}
+
 @media (max-width: 767px) {
-	.section-header .section-title {
+	.section .section-header .section-title {
 		font-size: 30px;
 	}
 
-	.section-header .section-desc {
+	.section .section-header .section-desc {
 		font-size: 15px;
 	}
 }
 
 @media (max-width: 480px) {
-	.section-header .section-title {
+	.section .section-header .section-title {
 		font-size: 28px;
 	}
 
-	.section-header .section-desc {
+	.section .section-header .section-desc {
 		font-size: 14px;
 	}
 }
 
 @media (max-width: 360px) {
-	.section-header .section-title {
+	.section .section-header .section-title {
 		font-size: 24px;
 	}
 
-	.section-header .section-desc {
+	.section .section-header .section-desc {
 		font-size: 13px;
 	}
 }
