@@ -170,10 +170,6 @@ body {
 	text-align: left;
 }
 
-.mem .section .section-end {
-	text-align: center;
-}
-
 .section .section-end p:first-child {
 	color: #4d5464;
 	font-weight: bold;
