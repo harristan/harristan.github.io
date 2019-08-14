@@ -175,6 +175,10 @@ body {
 	font-weight: bold;
 }
 
+.section .section-end a {
+	padding: 20px 0;
+}
+
 .section .section-end ul {
 	margin-top: 10px;
 	list-style-type: square;
