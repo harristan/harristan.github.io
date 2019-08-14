@@ -176,26 +176,31 @@ body {
 	margin-bottom: 20px;
 }
 
-.mem .section .section-end p:first-child {
-	margin-bottom: 50px;	
-}
-
-.section .section-end a {
+.per .section .section-end a {
 	color: #529bdc;
 	padding: 20px 0;
 }
 
-.section .section-end ul {
+.per .section .section-end ul {
 	margin-top: 10px;
 	list-style-type: square;
 	padding-inline-start: 40px;
 }
 
-.section .section-end ul li {
+.per .section .section-end ul li {
 	margin-bottom: 5px;
 	font-size: 15px;
 	text-align: left;
 }
+
+.mem .section .section-end p:first-child {
+	margin-bottom: 50px;	
+}
+
+.mem .section .section-end .social {
+	text-align: center;
+}
+
 
 @media (max-width: 767px) {
 	.section .section-header .section-title {
@@ -206,7 +211,7 @@ body {
 		font-size: 15px;
 	}
 
-	.section .section-end ul li {
+	.per .section .section-end ul li {
 		font-size: 14px;
 	}
 }
@@ -220,7 +225,7 @@ body {
 		font-size: 14px;
 	}
 
-	.section .section-end ul li {
+	.per .section .section-end ul li {
 		font-size: 13px;
 	}
 }
@@ -234,7 +239,7 @@ body {
 		font-size: 13px;
 	}
 
-	.section .section-end ul li {
+	.per .section .section-end ul li {
 		font-size: 12px;
 	}
 }
