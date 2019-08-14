@@ -177,8 +177,9 @@ body {
 }
 
 .per .section .section-end a {
-	color: #529bdc;
-	padding: 20px 0;
+	color: #90959f;
+    font-weight: bold;
+    padding: 10px 0;
 }
 
 .per .section .section-end ul {
