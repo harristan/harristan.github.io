@@ -182,7 +182,7 @@ body {
 }
 
 .per .section .section-end ul {
-	margin-top: 10px;
+	margin: 10px 0 0;
 	list-style-type: square;
 	padding-inline-start: 40px;
 }
@@ -239,6 +239,10 @@ body {
 
 	.section .section-header .section-desc, .section .section-end {
 		font-size: 15px;
+	}
+
+	.per .section .section-end ul {
+		padding-inline-start: 25px;
 	}
 
 	.per .section .section-end ul li {
