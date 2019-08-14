@@ -163,9 +163,7 @@ body {
 }
 
 .section .section-end {
-	background: #efe8dc;
-    border-radius: 6px;
-	color: #000;
+	color: #2e2626;
 	font-size: 16px;
     padding: 10px 10px;
     margin: 0 auto;
