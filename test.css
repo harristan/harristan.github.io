@@ -163,25 +163,27 @@ body {
 }
 
 .section .section-end {
-	color: #2e2626;
+	color: #000;
 	font-size: 16px;
     padding: 10px 10px;
     margin: 0 auto;
 	text-align: justify;
 }
 
-.section .section-end p:last-child {
-	margin-bottom: 0;
+.section .section-end p:first-child {
+	color: #2e2626;
+	font-weight: bold;
 }
 
-.section .section-end p ul {
+.section .section-end ul {
 	margin-top: 10px;
-	list-style-type: circle;
-	padding-inline-start: 25px;
+	list-style-type: square;
+	padding-inline-start: 40px;
 }
 
-.section .section-end p ul li {
+.section .section-end ul li {
 	margin-bottom: 10px;
+	font-size: 15px;
 }
 
 @media (max-width: 767px) {
@@ -191,6 +193,10 @@ body {
 
 	.section .section-header .section-desc, .section .section-end {
 		font-size: 15px;
+	}
+
+	.section .section-end ul li {
+		font-size: 14px;
 	}
 }
 
@@ -202,6 +208,10 @@ body {
 	.section .section-header .section-desc, .section .section-end {
 		font-size: 14px;
 	}
+
+	.section .section-end ul li {
+		font-size: 13px;
+	}
 }
 
 @media (max-width: 360px) {
@@ -211,6 +221,10 @@ body {
 
 	.section .section-header .section-desc, .section .section-end {
 		font-size: 13px;
+	}
+
+	.section .section-end ul li {
+		font-size: 12px;
 	}
 }
 
