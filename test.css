@@ -163,13 +163,17 @@ body {
 }
 
 .section .section-end {
-	border-top: 1px solid #a99372;
-	border-bottom: 1px solid #a99372;
-	color: #1C1708;
+	background: #efe8dc;
+    border-radius: 6px;
+	color: #000;
 	font-size: 16px;
     padding: 10px 10px;
     margin: 0 auto;
 	text-align: justify;
+}
+
+.section .section-end p:last-child {
+	margin-bottom: 0;
 }
 
 @media (max-width: 767px) {
@@ -177,7 +181,7 @@ body {
 		font-size: 30px;
 	}
 
-	.section .section-header .section-desc {
+	.section .section-header .section-desc, .section .section-end {
 		font-size: 15px;
 	}
 }
@@ -187,7 +191,7 @@ body {
 		font-size: 28px;
 	}
 
-	.section .section-header .section-desc {
+	.section .section-header .section-desc, .section .section-end {
 		font-size: 14px;
 	}
 }
@@ -197,7 +201,7 @@ body {
 		font-size: 24px;
 	}
 
-	.section .section-header .section-desc {
+	.section .section-header .section-desc, .section .section-end {
 		font-size: 13px;
 	}
 }
