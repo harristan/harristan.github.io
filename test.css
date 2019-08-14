@@ -155,7 +155,7 @@ body {
 }
 
 .section .section-header .section-desc {
-	color: #1C1708;
+	color: #000;
 	font-size: 16px;
     padding: 0 10px;
     margin: 0 auto;
@@ -170,12 +170,17 @@ body {
 	text-align: left;
 }
 
+.mem .section .section-end {
+	text-align: center;
+}
+
 .section .section-end p:first-child {
 	color: #4d5464;
 	font-weight: bold;
 }
 
 .section .section-end a {
+	color: #529bdc;
 	padding: 20px 0;
 }
 
