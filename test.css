@@ -162,6 +162,11 @@ body {
 	text-align: center;
 }
 
+.section .section-header .section-desc .fa-hand-o-down {
+	position: relative;
+    top: 1px;
+}
+
 .section .section-end {
 	color: #000;
 	font-size: 16px;
