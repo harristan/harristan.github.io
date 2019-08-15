@@ -170,7 +170,7 @@ body {
 .section .section-end {
 	color: #000;
 	font-size: 16px;
-    padding: 10px 15px 0;
+    padding: 0 15px;
     margin: 0 auto;
 	text-align: left;
 }
@@ -182,7 +182,8 @@ body {
 }
 
 .per .section .section-end a {
-	color: #90959f;
+	color: #5d8bc7;
+	text-decoration: underline;
     font-weight: bold;
     padding: 10px 0;
 }
