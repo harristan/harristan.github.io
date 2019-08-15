@@ -175,10 +175,10 @@ body {
 	text-align: left;
 }
 
-.section .section-end p:first-child {
-	color: #4d5464;
+.section .section-end p {
+	color: #444a57;
 	font-weight: bold;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .per .section .section-end a {
@@ -197,6 +197,10 @@ body {
 	margin-bottom: 5px;
 	font-size: 15px;
 	text-align: left;
+}
+
+.per .section .section-end p:first-child {
+	margin-bottom: 20px;
 }
 
 .mem .section .section-end p:first-child {
